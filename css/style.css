@@ -196,45 +196,53 @@ header{
  /*blog2 end*/
  /*footer start*/
  .footer{
- 	background-color: #f0f0f0;
- 	padding: 20px 0;
- 	font-size: 20px;
- 	/*border: 2px solid red;*/
+        background-color: #f0f0f0;
+      	  padding: 35px 0;
+      	  font-size: 20px;
+      	  /*border: 2px solid red;*/
  }
  .f_left{
- 	width: 45%;
- 	float: left;
- 	 	/*border: 2px solid red;*/
+ 	        width : 30 %;
+ 	        float: left;
+ 	        /*border: 1px solid red;*/
+ }
+ .f_ul{
+ 	margin: 0;
+ 	padding: 0;
  }
  .f_left ul{
- 	padding-left: 0;
- 		/*border: 2px solid yellow;*/
-
+     	     overflow: hidden;
+}
+ .f_left ul li,.f_right ul li{
+ 	         float: left;
+ 	         list-style: none;
+}
+ .f_left ul li a{        
+ 	         margin-right: 15px;
+ 	         display: inline-block;
+ 	         color: #626262;
+ 	         text-decoration: none;
  }
- .f_left ul li{}
- .f_left ul li a{}
 
 .f_right{
-	width: 50%;
-	float: right;
-		/*border: 2px solid green;*/
+	        width: 30%;
+	        float: right;
+	        /*border: 1px solid red;*/
 }
 
 .f_right ul{
-	float: right;
+	        float: right;
+}
 
+.f_right ul li span{}
+.f_right ul li a{
+	       margin-left: 15px;
+	       display: inline-block;
+	       text-decoration: none;
+ }
+	       
 }
-.f_right ul li{
-	margin: 0 10px;
-}
-.f_right ul li:last-child{
-	margin-right: 0;
-}
-.f_right ul li a{}
 .f_right ul li a img{}
 
  /*footer end*/
-
- 
-
 

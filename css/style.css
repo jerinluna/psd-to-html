@@ -18,7 +18,7 @@ header{
 	 /*border: 1px solid;*/
 }
 .container{
-	  overflow: hidden;
+	/*overflow: hidden;*/
   	margin: 0 auto;
     width: 90%;
    /* border: 1px solid;*/
@@ -246,3 +246,4 @@ header{
 .f_right ul li a img{}
 
  /*footer end*/
+
